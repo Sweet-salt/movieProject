@@ -1,10 +1,10 @@
 export default {
   namespaced: true,
   state: () => ({
-    name: 'HEROPY',
-    email: 'thesecon@gmail.com',
-    blog: 'https://heropy.blog',
-    phone: '+82-10-1234-5678',
+    name: 'sweet-salt',
+    email: 'dudgh0314@gmail.com',
+    blog: '',
+    phone: '+82-10-8828-6773',
     image: 'https://heropy.blog/css/images/logo.png'
   })
 }
