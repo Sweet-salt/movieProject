@@ -3,6 +3,7 @@
     <div
       :class="{ 'no-result': !movies.length }"
       class="inner">
+      <div class="spinner-border text-primary"></div>
       <Loader v-if="loading" />
       <div
         v-if="message"
@@ -42,6 +43,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/scss/main";
 .container {
   margin-top: 30px;
   .inner {

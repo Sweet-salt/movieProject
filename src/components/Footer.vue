@@ -2,7 +2,7 @@
   <footer>
     <Logo />
     <a
-      href="https://github.com/ParkYoungWoong"
+      href="https://github.com/sweet-salt"
       target="_blank">
       (c){{ new Date().getFullYear() }} {{ name }}
     </a>

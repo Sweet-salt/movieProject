@@ -1,5 +1,16 @@
 <template>
-  <div>{{ movie.imdbID }}</div>
+  <div 
+  :style="{ backgroundImage: `url${movie.Poster}`}"
+  class="movie">
+    <div class="info">
+      <div class="year">
+        {{ movie.Year }}
+      </div>
+      <div class="title">
+        {{ movie.Title }}
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -38,6 +49,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~/scss/main";
 .movie {
   $width: 200px;
   width: $width;
